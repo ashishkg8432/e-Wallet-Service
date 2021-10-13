@@ -54,8 +54,8 @@ public class NotificationConfig {
         JavaMailSenderImpl javaMailSender = new JavaMailSenderImpl();
         javaMailSender.setHost("smtp.gmail.com");
         javaMailSender.setPort(587);
-        javaMailSender.setUsername("geeksforgeeks.jbld15@gmail.com");
-        javaMailSender.setPassword("gfg.jbdl15@123");
+        javaMailSender.setUsername("service.ewallet@gmail.com");
+        javaMailSender.setPassword("ewallet@123");
 
         Properties properties = javaMailSender.getJavaMailProperties();
         properties.put("mail.debug", true);

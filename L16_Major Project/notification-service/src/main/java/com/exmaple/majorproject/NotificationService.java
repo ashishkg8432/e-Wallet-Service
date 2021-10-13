@@ -31,7 +31,7 @@ public class NotificationService {
         String emailMsg = (String) jsonObject.get("message");
 
         simpleMailMessage.setText(emailMsg);
-        simpleMailMessage.setFrom("geeksforgeeks.jbld15@gmail.com");
+        simpleMailMessage.setFrom("service.ewallet@gmail.com");
         simpleMailMessage.setTo(email);
 
         javaMailSender.send(simpleMailMessage);

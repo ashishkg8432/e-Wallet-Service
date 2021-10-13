@@ -18,8 +18,8 @@ public class UserApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
         ObjectMapper objectMapper = new ObjectMapper();
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("name", "Piyush");
-        jsonObject.put("userId", "piyush123");
+        jsonObject.put("name", "Ashishkg");
+        jsonObject.put("userId", "ashish123");
 
         System.out.println(objectMapper.writeValueAsString(jsonObject));
     }
